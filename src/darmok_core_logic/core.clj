@@ -36,7 +36,7 @@
             (l/== [eng] ["successful-first-contact"])]))
 
 (defn allegory [tam hum eng]
-  (l/conde [(cooperation tam hum eng)]
+  (l/conde [(failure tam hum eng)]
            [(common-enemy tam hum eng)]
            [(cooperation tam hum eng)]
            [(successful-cooperation tam hum eng)]
